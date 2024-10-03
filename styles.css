@@ -1,0 +1,80 @@
+body { 
+    background: #ababab;
+} 
+
+.sheet { 
+    width: 90%; 
+    height: 100%;
+} 
+
+header { 
+    position: 0, 0; 
+    height: 50px; 
+    width: 100%; 
+    background: #5591a3; 
+    margin: 0;
+} 
+
+#nav {
+    list-style: none;
+    display: block;
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+#nav li {
+    display: inline;
+    background: #ffffff;
+    border: 1px solid silver;
+    padding: 0 20px;
+    cursor: pointer; 
+    color: #fff
+}
+
+#nav li:hover {
+    color: #fff;
+    background: #333;
+    border-radius: 5px;
+    border-color: #333;
+}  
+
+#nav li:visited { 
+    background-color:#5591a3 ;
+} 
+
+.aside {  
+    float: left;
+} 
+
+.Wolf { 
+    width: 350px; 
+    height: 400px; 
+    display: flex; 
+    border-radius: 30px;
+} 
+
+.gremlin { 
+    float: left; 
+    display: flex; 
+    height: 40px; 
+    width: 40px; 
+    margin: 10px; 
+    z-index: 2;
+} 
+
+.info p { 
+    color: #86898f; 
+    margin: 0; 
+    font-style: italic; 
+    font-weight: bold; 
+    text-decoration: underline;  
+    letter-spacing: 5px; 
+    word-spacing: 10px; 
+}  
+
+.info { 
+    margin-bottom: 20px; 
+    margin-left: 370px; 
+} 
